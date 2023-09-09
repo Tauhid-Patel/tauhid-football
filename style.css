@@ -40,7 +40,7 @@ h1 span {
 }
 
 .main-heading::before {
-  content: url("./public/stars.png");
+  content: url("/stars.png");
   position: relative;
   left: 20px;
   bottom: 15px;
