@@ -83,10 +83,10 @@ h1 span {
 }
 
 .tauhid-left {
-  height: 50vh;
+  height: 45vh;
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  left: 10%;
+  bottom: 10%;
 }
 
 .tauhid-right {
