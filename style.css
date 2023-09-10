@@ -60,7 +60,7 @@ h1 span {
 
 #cta-btn {
   margin-top: 2em;
-  padding: 1.5em;
+  padding: 1.5em 2em;
   font-size: 1em;
   font-weight: 600;
   letter-spacing: 1px;
@@ -95,3 +95,39 @@ h1 span {
   right: 5%;
   bottom: 3%;
 }
+
+#featured-videos {
+  margin-top: 2em;
+}
+
+.featured-video-heading {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+/*
+.card {
+  cursor: pointer;
+}
+
+.container .card {
+  width: 35vw;
+  height: 44vh;
+  background-color: #fcfcfc;
+  border-radius: .3em;
+  box-shadow: -2.23292px 1.11646px 25.6785px 8.93167px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in;
+  cursor: pointer;
+}  
+
+.container > .card:hover {
+  transform: scale(1.01);
+  box-shadow: -2.23292px 1.11646px 25.6785px 8.93167px rgba(0, 0, 0, 0.10);
+}
+*/
+.card p {
+  padding-left: 1em;
+  padding-top: .3em;
+  font-size: 1.2em;
+  font-weight: 500;
+} 
