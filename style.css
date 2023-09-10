@@ -90,8 +90,8 @@ h1 span {
 }
 
 .tauhid-right {
-  height: 50vh;
+  height: 70vh;
   position: absolute;
-  right: 0%;
-  bottom: 15%;
+  right: 5%;
+  bottom: 3%;
 }
