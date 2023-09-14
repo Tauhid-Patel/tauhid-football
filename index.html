@@ -71,6 +71,23 @@
           </div>
       </div>
   </section>
+
+
+  <section id="magazine" class="magazine">
+    <h2 class="magazine-header">Upskill your football knowledge through slides of information goldmine</h2>
+    <p class="magazine-hint">Tap on the upper right corner or bottom right corner of the slide to turn the page</p>
+    <div id="carousel">
+        <div style="background-image: url('./public/Offisde_1.png')"></div>
+        <div style="background-image: url('./public/Offisde_2.png')"></div>
+        <div style="background-image: url('./public/Offisde_3.png')"></div>
+        <div style="background-image: url('./public/Offisde_4.png')"></div>
+        <div style="background-image: url('./public/Offisde_5.png')"></div>
+        <div style="background-image: url('./public/Offisde_8.png')"></div>
+        <div style="background-image: url('./public/Offisde_9.png')"></div>
+        <div style="background-image: url('./public/Instagram\ Post\ –\ 1.png')"></div>
+        <div style="background-image: url('./public/Instagram\ Post\ –\ 2.png')"></div>
+    </div>
+</section>
   
 
 
@@ -81,5 +98,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="module" src="/main.js"></script>
+    <script src="./node_modules/turn.js"></script>
+    <script>
+        $('#carousel').turn({
+            gradients: true,
+            acceleration: true});
+        $('#carousel-2').turn({
+            gradients: true,
+            acceleration: true});
+    </script>
   </body>
 </html>

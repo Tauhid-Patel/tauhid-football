@@ -131,3 +131,39 @@ h1 span {
   font-size: 1.2em;
   font-weight: 500;
 } 
+
+.magazine {
+    margin-top: 5em;
+    min-height: 70vh;
+}
+
+.magazine-header, .magazine-hint {
+    text-align: center;
+}
+
+.magazine-hint {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+#carousel{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    background-color: #459d52;
+    box-shadow: -2.23292px 1.11646px 25.6785px 8.93167px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#carousel .page{
+    background-color: red;
+}
+
+#carousel div{
+    /* -webkit-background-size: cover; */
+    background-size: cover;
+    background-position: center center;
+}
