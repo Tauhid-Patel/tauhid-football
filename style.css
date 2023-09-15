@@ -187,3 +187,20 @@ h1 span {
   left: 15%;
   top: 2%;
 }
+
+.testimonials {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.testimonials img {
+  height: 80vh;
+}
