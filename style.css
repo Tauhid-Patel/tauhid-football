@@ -6,7 +6,7 @@
 }
 
 html, body {
-  min-height: 100vh;
+  overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
 
@@ -226,33 +226,33 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 200px) and (max-width: 860px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  h1 span {
+    margin-left: 0.1em;
+  }
   .main {
-    min-height: 50vh;
+    padding-top: 2em;
+    min-height: 40vh;
+  }
+  .main-heading::before {
+    display: none;
   }
   .main-heading {
-    font-size: 2.5em;
+    font-size: 1.4rem;
   }
   .main-subheading {
-    font-size: 1em;
+    font-size: 0.65rem;
   }
   #cta-btn {
     margin-top: 1em;
-    padding: 1em;
-    font-size: 1em;
-  }
-  #cta-btn:hover {
-    transform: translateY(-3px);
-  }
-  #cta-btn:active {
-    transform: translateY(-1px);
+    padding: 0.75em 1em;
   }
   .tauhid-left, .tauhid-right {
     display: none;
   }
   /* featured videos */
   .featured-video-heading {
-    font-size: 1.4em;
+    font-size: 0.75em;
   }
   .card p {
     padding: 0.1em;
@@ -260,42 +260,60 @@ footer {
   } 
   /* carousel */
   .magazine {
-    min-height: 60vh;
+    min-height: 50vh;
 }
 .magazine-header{
-    font-size: 1em;
+    font-size: 0.85em;
 }
 .magazine-hint {
-    padding-top: .5em;
-    padding-bottom: 1em;
-    font-size: 0.85em;
-    font-weight: 500;
+    font-size: 0.55em;
 }
   #carousel{
-    margin: 0 auto;
-    width: 550px;
-    height: 280px;
+    width: 340px;
+    height: 160px;
 }
 .video {
   height: 50vh;
 }
-iframe {
-  width: 800px;
-  height: 300px
+.video-heading {
+  font-size: 0.75em;
+}
+.video iframe {
+  width: 350px;
+  height: 280px;
+  position: relative;
+  left: 2%;
+  top: 2%;
 }
 .testimonials {
-  min-height: 50vh;
   margin-top: 2em;
-  margin-bottom: 0;
-  display: flex;
-  flex-direction: column;
+  min-height: 40vh;
   justify-content: flex-start;
-  align-items: center;
 }
 .testimonial-heading {
   font-size: 1em;
 }
 .testimonials img {
-  height: 40vh;
+  height: 28vh;
+}
+footer {
+  margin-top: 1em;
+}
+.footer-content p {
+  font-size: 0.55em;
+}
+.footer-name {
+  font-size: 0.75em;
 }
 }
+
+@media (max-width: 931px) {
+  body {
+    background-color: red;
+  }
+}
+
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px){ ... }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ ... } */
